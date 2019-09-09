@@ -1,0 +1,57 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  chromium-browser &
+    4  whoami
+    5  pwd
+    6  ls
+    7  dir
+    8  ls
+    9  man who
+   10  uname
+   11  uname -a
+   12  echo $0
+   13  sh
+   14  pwd
+   15  ls
+   16  ls -l
+   17  ls
+   18  ls -a
+   19  ls
+   20  ls -a
+   21  ls
+   22  ls -a
+   23  ls -al
+   24  ls -a -l
+   25  ls -al
+   26  pwd
+   27  cd .
+   28  pwd
+   29  cd ..
+   30  pwd
+   31  cd .
+   32  pwd
+   33  cd ..
+   34  pwd
+   35  cd .
+   36  cd ..
+   37  wd
+   38  pwd
+   39  cd
+   40  pwd
+   41  cd /
+   42  pwd
+   43  cd home/user/
+   44  man wc
+   45  wc plans.txt 
+   46  man wc
+   47  cd /
+   48  cd home/
+   49  cd user
+   50  pwd
+   51  cd /
+   52  pwd
+   53  cd ~
+   54  cd
+   55  pwd
+   56  history
+   57  history > history_20190909.txt
