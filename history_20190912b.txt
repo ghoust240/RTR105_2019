@@ -1,0 +1,107 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  gkfkgsflgsdf
+    5  gs
+    6  exit
+    7  exit
+    8  history
+    9  ls
+   10  touch aaa.txt
+   11  ls -l
+   12  cat aaa.txt 
+   13  cat bbb.txt 
+   14  echo Pirmais teksts
+   15  echo Pirmais teksts > aaa.txt 
+   16  cat aaa.txt 
+   17  ls -l aaa.txt 
+   18  echo Otrais teksts > aaa.txt 
+   19  cat aaa.txt 
+   20  echo Pirmais teksts > aaa.txt 
+   21  cat aaa.txt 
+   22  echo Otrais teksts >> aaa.txt 
+   23  cat aaa.txt 
+   24  ls -l aaa.txt 
+   25  nano aaa.txt 
+   26  ls -l aaa.txt 
+   27  cat aaa.txt 
+   28  cp aaa.txt bbb.txt
+   29  ls -l
+   30  cd /
+   31  pwd
+   32  mv ~/aaa.txt ~/Documents/ccc.txt
+   33  mv ~/aaa.txt ccc.txt
+   34  mv ~/bbb.txt.txt ccc.txt
+   35  mv ~/bbb.txt ccc.txt
+   36  cd
+   37  ls -l
+   38  ls -l Documents/
+   39  cat Documents/ccc.txt 
+   40  pwd
+   41  pd
+   42  mv ./Documents/ccc.txt ddd.txt
+   43  ls -l
+   44  mkdir ManaMape
+   45  mv *.txt ManaMape/
+   46  ls -l
+   47  ls -l ManaMape/
+   48  ls -l
+   49  ls -l Documents/
+   50  cd ManaMape/
+   51  rm bbb.txt 
+   52  ls -l
+   53  cd ..
+   54  rmdir ManaMape/
+   55  man rmdir
+   56  rm ManaMape/
+   57  rm -f ManaMape/
+   58  rm -fr ManaMape/
+   59  ls -l
+   60  nano MansPirmaisSkripts.sh
+   61  ls -l
+   62  MansPirmaisSkripts.sh
+   63  ls -l
+   64  MansPirmaisSkripts.sh
+   65  echo $PATH
+   66  ls
+   67  echo $PATH
+   68  ls /bin | grep ls
+   69  ls /bin
+   70  ls /bin | grep ls
+   71  ls -l /bin/ls
+   72  echo $PATH
+   73  ls
+   74  cat /bin/ls
+   75  ls -l /bin/ls
+   76  MansPirmaisSkripts.sh
+   77  ~/MansPirmaisSkripts.sh
+   78  echo $PATH
+   79  $PATH=$PATH:~
+   80  echo $PATH
+   81  $PATH=$PATH:~/
+   82  PATH=$PATH:~/
+   83  echo $PATH
+   84  PATH=~/
+   85  echo $PATH
+   86  ls
+   87  PATH=/usr/local/anaconda3/bin:/opt/intelFPGA_lite/17.1/quartus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/
+   88  echo $PATH
+   89  ls
+   90  MansPirmaisSkripts.sh
+   91  ls -l
+   92  chmod 740 MansPirmaisSkripts.sh 
+   93  ls -l
+   94  MansPirmaisSkripts.sh 
+   95  ls -l
+   96  ls -l ManaMapeAuto/
+   97  cat ManaMapeAuto/fff.txt 
+   98  echo $PATH
+   99  ls -l
+  100  nano MansPirmaisSkripts.sh 
+  101  MansPirmaisSkripts.sh 
+  102  ls -l
+  103  ls -l ManaMapeAuto/fff.txt 
+  104  cat ManaMapeAuto/fff.txt 
+  105  cat MansPirmaisSkripts.sh 
+  106  history
+  107  history > history_20190912b.txt
