@@ -62,7 +62,7 @@
    62  cat /home/user/Music/D10.tx 
    63  ls
    64  mv bbb1.txt e7.xtx
-   65  ls
+   65* 
    66  ls -l e7.xtx 
    67  ls -l
    68  rm aaa.txt 
@@ -77,3 +77,60 @@
    77  ls -l
    78  history 
    79  history > history_20190916.txt
+   80  ls -l
+   81  cat history_20190916.txt 
+   82  ls -l
+   83  history
+   84  history > hisrtory_20190916.txt
+   85  ls
+   86  cat history_20190916.txt 
+   87  pwd
+   88  nano MansPirmaisSkripts.sh
+   89  ls -l
+   90  cat MansPirmaisSkripts.sh 
+   91  ls
+   92  whereis ls
+   93  whereis MansPirmaisSkripts.sh
+   94  ls
+   95  ls -l 
+   96  ls -l /bin/ls
+   97  ./MansPirmaisSkripts.sh
+   98  pwd
+   99  echo $PATH
+  100  PATH=$PATH:~
+  101  echo $PATH
+  102  PATH=PATH:~
+  103  echo $PATH
+  104  ls
+  105  PATH=/usr/local/anaconda3/bin:/opt/intelFPGA_lite/17.1/quartus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user
+  106  echo $PATH
+  107  ls
+  108  echo $PATH
+  109  MansPirmaisSkripts.sh
+  110  whereis MansPirmaisSkripts.sh
+  111  ls -l MansPirmaisSkripts.sh 
+  112  chmod 740 MansPirmaisSkripts.sh 
+  113  ls -l MansPirmaisSkripts.sh 
+  114  chmod 740 MansPirmaisSkripts.sh 
+  115  ls -l MansPirmaisSkripts.sh 
+  116  ls
+  117  MansPirmaisSkripts.sh 
+  118  ls -l
+  119  cat error.txt 
+  120  nano MansPirmaisSkripts.sh 
+  121  ls -l
+  122  rm log.txt 
+  123  rm error.txt 
+  124  ls -l
+  125  rm z100.txt 
+  126  ls -l
+  127  MansPirmaisSkripts.sh 
+  128  ls -l
+  129  cat log.txt 
+  130  cat error.txt 
+  131  man rmdir
+  132  ls -l
+  133  cat z100.txt 
+  134  nano MansPirmaisSkripts.sh 
+  135  history 
+  136  history > history_20190916.txt 
