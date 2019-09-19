@@ -1,0 +1,115 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  git clone https://github.com/tatusmatrix/RTR105_2019
+    6  ls -l
+    7  cd RTR105_2019/
+    8  ls -l
+    9  ls -la
+   10  pwd
+   11  ls -l
+   12  cat README.md 
+   13  nano git-upload
+   14  ls -l
+   15  cat git-upload 
+   16  ls -l
+   17  chmod 700 git-upload 
+   18  ls -l
+   19  wheris git-upload
+   20  whereis git-upload
+   21  echo $PATH
+   22  ./git-upload 
+   23  cat git-upload 
+   24  ./git-upload 20190919_15_00
+   25  cd ..
+   26  pwd
+   27  ls -l
+   28  rm -rf RTR105_2019/
+   29  ls -l
+   30  git clone https://github.com/tatusmatrix/RTR105_2019
+   31  ls -l
+   32  cd RTR105_2019/
+   33  ls -l
+   34  man gcc
+   35  man g++
+   36  nano elementary.c
+   37  ls -l
+   38  mkdir darbi
+   39  mv elementary.c darbi/
+   40  cd darbi/
+   41  ls -l
+   42  cat elementary.c 
+   43  ls -l
+   44  chmod 777 elementary.c 
+   45  ./elementary.c 
+   46  chmod 644 elementary.c 
+   47  ls -l
+   48  cat elementary.c 
+   49  gcc elementary.c 
+   50  nano elementary.c
+   51  gcc elementary.c 
+   52  cls -l
+   53  gcc elementary.c 
+   54  ls -l
+   55  ./a.out 
+   56  gcc elementary.c 
+   57  ls -l
+   58  gcc elementary.c 
+   59  ls -l
+   60  gcc elementary.c -o prg1
+   61  ls -l
+   62  ./prg1 
+   63  nano elementary.c
+   64  ls -l
+   65  gcc elementary.c -o prg1
+   66  ls -l
+   67  nano elementary.c
+   68  gcc elementary.c -o prg1
+   69  ls -l
+   70  nano elementary.c
+   71  gcc elementary.c -o prg1
+   72  ls -l
+   73  ./prg1 
+   74  nano elementary.c
+   75  gcc elementary.c -o prg2
+   76  ls -l
+   77  nano elementary.c
+   78  gcc elementary.c -o prg3
+   79  ls -l
+   80  cat prg1
+   81  cp elementary.c hello.c
+   82  ls -l
+   83  nano hello.c 
+   84  gcc hello.c -o hello
+   85  nano hello.c 
+   86  gcc hello.c -o hello
+   87  nano hello.c 
+   88  gcc hello.c -o hello
+   89  ./hello 
+   90  cat hello
+   91  cat hello.c 
+   92  gcc hello.c -o hello
+   93  ./hello 
+   94  nano hello.c 
+   95  gcc hello.c -o hello
+   96  ls -l
+   97  nano hello.c 
+   98  cat hello.c 
+   99  gcc hello.c -o hello
+  100  ./hello 
+  101  nano hello.c 
+  102  cat hello.c 
+  103  gcc hello.c -o hello
+  104  ./hello 
+  105  nano hello.c 
+  106  ls -l
+  107  rm prg*
+  108  ls -l
+  109  rm a.out 
+  110  rm hello
+  111  ls -l
+  112  cat elementary.c 
+  113  cat hello.c 
+  114  cd ..
+  115  history > history_20190919_16_00
