@@ -1,116 +1,26 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  git clone https://github.com/tatusmatrix/RTR105_2019
-    4  ls -ls
-    5  ls -l
-    6  cd RTR105_2019/
-    7  pwd
-    8  ls -l
-    9  nano git-upload 
-   10  ls -l
-   11  nano git-upload 
-   12  ls -l
-   13  chmod 755 git-upload 
-   14  history 
-   15  history > history_20190923.txt
-   16  ls -l
-   17  load git-upload
-   18  ls -l
-   19  man re
-   20  ls -l
-   21  cat git-upload 
-   22  ls -l
-   23  git-upload
-   24  sh git-upload
+    3  cd darbiM02/
+    4  cp hello.c 02.c
+    5  nano 02.c 
+    6  gcc 02.c 
+    7  ls -l
+    8  ./a.out 
+    9  cat 02.c 
+   10  echo -e "\a"
+   11  echo -e "\a\a\a\a\a"
+   12  echo -e "AAAAA"
+   13  echo -e "AAAAA\a"
+   14  nano 02.c 
+   15  gcc 02.c 
+   16  ./a.out 
+   17  nano 02.c 
+   18  gcc 02.c 
+   19  ./a.out 
+   20  nano 02.c 
+   21  ls -l
+   22  rm a.out 
+   23  ls -l
+   24  cd ..
    25  ls -l
-   26  git-upload
-   27  mv git-upload git-upload.sh
-   28  git-upload.sh
-   29  ls -l
-   30  mv git-upload.sh git-upload
-   31  ls -l
-   32  echo $PATH
-   33  ls -l
-   34  ./git-upload 
-   35  cat git-upload 
-   36  ./git-upload a b
-   37  ./git-upload 20190923_15_15
-   38  pwd
-   39  mkdir darbiM02
-   40  mv darbi darbiM01
-   41  ls -l
-   42  cd darbiM02
-   43  pwd
-   44  nano elementary.c
-   45  ls -l
-   46  chmod 744 elementary.c 
-   47  ./elementary.c 
-   48  chmod 644 elementary.c 
-   49  ls -l
-   50  cat elementary.c 
-   51  gcc elementary.c 
-   52  ls -l
-   53  cat a.out 
-   54  nano elementary.c 
-   55  ls -l
-   56  cat elementary.c 
-   57  gcc elementary.c -o prg1
-   58  ls -l
-   59  ./prg1
-   60  ./a.out 
-   61  nano elementary.c 
-   62  gcc elementary.c -o prg2
-   63  ls -l
-   64  gcc elementary.c -o prg1
-   65  ls -l
-   66  nano elementary.c 
-   67  gcc elementary.c -o prg1
-   68  nano elementary.c 
-   69  gcc elementary.c -o prg1
-   70  ls -l
-   71  nano elementary.c 
-   72  ls -l
-   73  cat elementary.c 
-   74  gcc elementary.c -o prg2
-   75  ls -l
-   76  nano elementary.c 
-   77  ls -l
-   78  cat elementary.c 
-   79  gcc elementary.c -o prg3
-   80  ls -l
-   81  cp elementary.c hello.c
-   82  ls -l
-   83  nano hello.c 
-   84  cat hello.c 
-   85  gcc hello.c -o prg4
-   86  nano hello.c 
-   87  cat hello.c 
-   88  gcc hello.c -o prg4
-   89  nano hello.c 
-   90  cat hello.c 
-   91  gcc hello.c -o prg4
-   92  ls -l
-   93  ./prg4
-   94  nano hello.c 
-   95  cat hello.c 
-   96  gcc hello.c -o prg5
-   97  ls -l
-   98  ./prg5
-   99  cat hello.c 
-  100  gcc hello.c -o prg5
-  101  ./prg5
-  102  cat hello.c 
-  103  nano hello.c 
-  104  cat hello.c 
-  105  gcc hello.c -o prg6
-  106  ls -l
-  107  ./prg6
-  108  rm prg1
-  109  rm prg2
-  110  ls -l
-  111  ls prg*
-  112  rm prg*
-  113  rm a.out 
-  114  ls -l
-  115  cd ..
-  116  history > history_20190923.txt 
+   26  history > history_20190923.txt 
