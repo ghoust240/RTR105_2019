@@ -1,0 +1,164 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/tatusmatrix/RTR105_2019
+    4  ls -l
+    5  cd RTR105_2019/
+    6  ls -l
+    7  cd darbiM02/
+    8  ls -l
+    9  wd
+   10  pwd
+   11  ls -l
+   12  pwd
+   13  ls -l
+   14  cp ../darbiM01/operation_bitwise_left.c operation_bitwise_right.c
+   15  ls -l
+   16  nano operation_bitwise_right.c 
+   17  whereis stdio.h
+   18  nano /usr/include/stdio.h
+   19  ls -l
+   20  cp operation_bitwise_right.c operation_bitwise_right_with_char.c 
+   21  ls -l
+   22  nano operation_bitwise_right_with_char.c 
+   23  gcc operation_bitwise_right_with_char.c 
+   24  ./a.out 
+   25  nano operation_bitwise_right_with_char.c 
+   26  gcc operation_bitwise_right_with_char.c 
+   27  ./a.out 
+   28  nano operation_bitwise_right_with_char.c 
+   29  nano operation_bitwise_right.c 
+   30  ls -l
+   31  cat operation_bitwise_right_with_char.c >> operation_bitwise_right.c 
+   32  nano operation_bitwise_right.c 
+   33  ls -l
+   34  cp operation_bitwise_right.c operation_bitwise_right_with_int.c 
+   35  nano operation_bitwise_right.c 
+   36  ls -l
+   37  nano operation_bitwise_right_with_int.c 
+   38  gcc operation_bitwise_right_with_int.c 
+   39  ./a.out 
+   40  nano operation_bitwise_right_with_int.c 
+   41  gcc operation_bitwise_right_with_int.c 
+   42  ./a.out 
+   43  nano operation_bitwise_right.c 
+   44  nano operation_bitwise_right_with_char.c 
+   45  nano operation_bitwise_right_with_int.c 
+   46  gcc operation_bitwise_right_with_int.c 
+   47  ./a.out 
+   48  nano operation_bitwise_right_with_char.c 
+   49  gcc operation_bitwise_right_with_char.c 
+   50  ls -l
+   51  ./a.out 
+   52  ls -l
+   53  nano operation_bitwise_right_with_int.c 
+   54  ls -l
+   55  nano operation_bitwise_right_with_char.c 
+   56  gcc operation_bitwise_right_with_char.c 
+   57  ./a.out 
+   58  nano operation_bitwise_right_with_char.c 
+   59  gcc operation_bitwise_right_with_char.c 
+   60  ./a.out 
+   61  nano operation_bitwise_right_with_int.c 
+   62  gcc operation_bitwise_right_with_int.c 
+   63  ./a.out 
+   64  gcc hello.c -o prg1 -S
+   65  ls -l
+   66  ls -lt
+   67  ./p
+   68  ./prg1
+   69  ls -lt
+   70  cat prg1 
+   71  ls -lt
+   72  gcc hello.c -o prg1 -S prg1asm
+   73  gcc hello.c -o prg1 -S
+   74  ls -lt
+   75  cat prg1 
+   76  gdb
+   77  ls -lt
+   78  gcc hello.c -o prg1
+   79  ./prg1 
+   80  gdb ./prg1 
+   81  ls -lt
+   82  rm a.
+   83  rm a.out 
+   84  ls -lt
+   85  rm prg1 
+   86  ls -l
+   87  nano operation_increment_and_decrement_left_and_right.c
+   88  man echo
+   89  nano operation_increment_and_decrement_left_and_right.c
+   90  gcc operation_increment_and_decrement_left_and_right.c
+   91  nano operation_increment_and_decrement_left_and_right.c
+   92  gcc operation_increment_and_decrement_left_and_right.c
+   93  ./a.out 
+   94  nano operation_increment_and_decrement_left_and_right.c
+   95  gcc operation_increment_and_decrement_left_and_right.c
+   96  ./a.out 
+   97  nano operation_increment_and_decrement_left_and_right.c
+   98  gcc operation_increment_and_decrement_left_and_right.c
+   99  ./a.out 
+  100  cat operation_increment_and_decrement_left_and_right.c
+  101  nano operation_increment_and_decrement_left_and_right.c
+  102  gcc operation_increment_and_decrement_left_and_right.c
+  103  ./a.out 
+  104  nano operation_increment_and_decrement_left_and_right.c
+  105  gcc operation_increment_and_decrement_left_and_right.c
+  106  ./a.out 
+  107  nano operation_increment_and_decrement_left_and_right.c
+  108  gcc operation_increment_and_decrement_left_and_right.c
+  109  ./a.out 
+  110  nano operation_increment_and_decrement_left_and_right.c
+  111  cat operation_increment_and_decrement_left_and_right.c
+  112  gcc operation_increment_and_decrement_left_and_right.c
+  113  ./a.out 
+  114  nano operation_increment_and_decrement_left_and_right.c
+  115  gcc operation_increment_and_decrement_left_and_right.c
+  116  ./a.out 
+  117  nano operation_increment_and_decrement_left_and_right.c
+  118  cat operation_increment_and_decrement_left_and_right.c
+  119  gcc operation_increment_and_decrement_left_and_right.c
+  120  ./a.out 
+  121  nano
+  122  ls -l
+  123  rm a.out 
+  124  ls -lt
+  125  cp operation_increment_and_decrement_left_and_right.c operation_logical_AND_and_bitwise_AND.c 
+  126  nano operation_logical_AND_and_bitwise_AND.c 
+  127  cat operation_logical_AND_and_bitwise_AND.c 
+  128  gcc operation_logical_AND_and_bitwise_AND.c 
+  129  ./a.out 
+  130  cat operation_logical_AND_and_bitwise_AND.c 
+  131  ./a.out 
+  132  gcc operation_logical_AND_and_bitwise_AND.c 
+  133  nano operation_logical_AND_and_bitwise_AND.c 
+  134  gcc operation_logical_AND_and_bitwise_AND.c 
+  135  ./a.out 
+  136  gcc operation_logical_AND_and_bitwise_AND.c -S
+  137  ls -l
+  138  cat a.out 
+  139  ls -l
+  140  gcc operation_logical_AND_and_bitwise_AND.c -o prg -S
+  141  ls -l
+  142  cat prg 
+  143  gcc operation_logical_AND_and_bitwise_AND.c -S
+  144  ls -l
+  145  ls -lt
+  146  cat prg 
+  147  nano tes
+  148  ls -l
+  149  rm a.out 
+  150  ls -lt
+  151  cat prg 
+  152  ls -l
+  153  ls -lt
+  154  rm prg 
+  155  ls -lt
+  156  cat operation_logical_AND_and_bitwise_AND.s
+  157  ls -lt
+  158  cat operation_logical_AND_and_bitwise_AND.c 
+  159  ls -lt
+  160  cd ..
+  161  ls -lt
+  162  history 
+  163  ls -lt
+  164  history > history_20191007.txt
