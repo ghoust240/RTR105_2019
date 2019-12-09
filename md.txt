@@ -1,0 +1,7 @@
+ls -l
+q
+e
+exit
+
+cat
+cd
